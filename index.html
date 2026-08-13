@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSafe Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CyberSafe Students</h1>
+        <p>Simple cybersecurity advice for university students</p>
+    </header>
+<nav>
+    <a href="#passwords">Passwords</a>
+    <a href="#phishing">Phishing</a>
+    <a href="#protection">Account Protection</a>
+    <a href="#password-checker">Password Checker</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Learn how to protect your passwords, recognise phishing messages and keep your online accounts safe.</p>
+        </section>
+    <section class="topic-card" id="passwords">
+    <h2>🔑 Strong Passwords</h2>
+    <p>A strong password helps protect your personal information and online accounts.</p>
+
+    <ul>
+        <li>Use at least 12 characters.</li>
+        <li>Use a different password for every account.</li>
+        <li>Combine uppercase and lowercase letters, numbers and symbols.</li>
+        <li>Use a password manager if possible.</li>
+    </ul>
+</section>
+<section class="topic-card" id="phishing">
+    <h2>🎣 Phishing Awareness</h2>
+    <p>Phishing messages try to steal personal information or make users click a dangerous link.</p>
+
+    <ul>
+        <li>Check the sender's email address carefully.</li>
+        <li>Be suspicious of urgent requests.</li>
+        <li>Do not open unexpected links or attachments.</li>
+        <li>Report suspicious messages to the university.</li>
+    </ul>
+</section>
+<section class="topic-card" id="protection">
+    <h2>🔐 Account Protection</h2>
+    <p>Extra security measures can reduce the risk of unauthorised access to online accounts.</p>
+
+    <ul>
+        <li>Turn on multi-factor authentication.</li>
+        <li>Keep applications and devices updated.</li>
+        <li>Do not share login details with other people.</li>
+        <li>Review account activity regularly.</li>
+    </ul>
+</section>
+<section class="tool-card" id="password-checker">
+    <h2>Password Strength Checker</h2>
+    <p>Enter a sample password to check its strength. Do not enter a real password.</p>
+
+    <label for="password-input">Sample password:</label>
+    <input type="password" id="password-input" placeholder="Enter a sample password">
+
+    <button type="button" id="check-password">Check strength</button>
+    
+    <div class="strength-bar">
+    <div id="strength-fill"></div>
+</div>
+
+    <p id="password-result">Password strength will appear here.</p>
+</section>
+<section class="quiz-card" id="quiz">
+    <h2>Cybersecurity Quiz</h2>
+    <p>Answer the questions to test your cybersecurity knowledge.</p>
+
+    <div class="question">
+        <h3>1. What should you do if you receive a suspicious email?</h3>
+
+        <label class="answer-option">
+            <input type="radio" name="question1" value="wrong">
+            Click the link immediately
+        </label>
+
+        <label class="answer-option">
+            <input type="radio" name="question1" value="correct">
+            Check the sender and report the message
+        </label>
+
+        <label class="answer-option">
+            <input type="radio" name="question1" value="wrong">
+            Send your password in a reply
+        </label>
+        <h3>2. Which password is the strongest?</h3>
+
+<label class="answer-option">
+    <input type="radio" name="question2" value="wrong">
+    password123
+</label>
+
+<label class="answer-option">
+    <input type="radio" name="question2" value="wrong">
+    damian2026
+</label>
+
+<label class="answer-option">
+    <input type="radio" name="question2" value="correct">
+    River!Cloud7Train
+</label>
+<h3>3. What does multi-factor authentication provide?</h3>
+
+<label class="answer-option">
+    <input type="radio" name="question3" value="wrong">
+    A faster internet connection
+</label>
+
+<label class="answer-option">
+    <input type="radio" name="question3" value="correct">
+    An additional layer of account security
+</label>
+
+<label class="answer-option">
+    <input type="radio" name="question3" value="wrong">
+    The same password for every account
+</label>
+    </div>
+    <button type="button" id="check-quiz">Check answers</button>
+<p id="quiz-result">Your score will appear here.</p>
+</section>
+<section class="resources-card">
+    <h2>Trusted Resources</h2>
+    <p>Find more cybersecurity guidance from official organisations:</p>
+
+    <ul>
+        <li>
+            <a href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online" target="_blank">
+                NCSC: Top tips for staying secure online
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ncsc.gov.uk/collection/phishing-scams" target="_blank">
+                NCSC: Phishing scams
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/activate-2-step-verification-on-your-email" target="_blank">
+                NCSC: Turn on 2-step verification
+            </a>
+        </li>
+    </ul>
+</section>
+    </main>
+<footer>
+    <p>CyberSafe Students — a cybersecurity awareness project for university students.</p>
+    <p>For educational purposes only. Never enter a real password into the checker.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
